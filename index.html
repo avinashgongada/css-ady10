@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container {
+          display: flex;
+          background-color: DodgerBlue;
+          justify-content: right;
+        }
+        
+        .flex-container > div {
+          background-color: gray;
+          width: 100px;
+          margin: 5px;
+          text-align: center;
+          line-height: 100px;
+          font-size: 50px;
+          color: red;
+        }
+        .parent{
+            border: 1px solid;
+            background-color: blue;
+            display: flex;
+            justify-content: space-between;
+        }
+        .parent>div{
+            background-color: aquamarine;
+            padding: 20px;
+            width: 150px;
+            margin: 5px;
+            
+        }
+        
+        </style>
+</head>
+<body>
+
+    <h1>Flexible Boxes</h1>
+
+    <div class="flex-container">
+      <div>sa</div>
+      <div>ri</div>
+      <div>ga</div>  
+      <div>ma</div>
+      <div>pa</div>
+      <div>da</div>  
+      <div>ni</div>
+      <div>sa</div>
+    </div><br>
+    <div class="parent">
+        <div class="item1">content1</div>
+        <div class="item2">content2</div>
+        <div class="item3">content3</div>
+        <div class="item4">content4</div>
+
+    </div>
+    
+</body>
+</html>
